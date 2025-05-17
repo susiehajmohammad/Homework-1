@@ -36,7 +36,7 @@ class(y)
 ```
 
 What type is our object "y"? Use typeof() function. "y" is a list.
- 
+
 ```{r}
 
 typeof(y)
