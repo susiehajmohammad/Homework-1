@@ -44,7 +44,7 @@ typeof(y)
 ```
 
 What structure is our object "y"? Use str() function. See output for y below.
-
+ 
 ```{r}
 
 
