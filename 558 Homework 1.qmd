@@ -1,0 +1,62 @@
+---
+title: "About Data Science"
+author: "Susan Hajmohammad"
+format: html
+editor: visual
+---
+
+**Answer these questions:**
+
+-   **What do you think being a data scientist is about?**
+
+It appears that a data scientist is essentially the middle-man between raw data and communicable results. In this regard, data scientists wear many hats. It is equally crucial to be able to tidy and transform large, complicated (real-world) data sets, explore the tidied data to find trends or significant results, then be able to communicate these findings to your peers or clients. This would seem to be an invaluable skill-set for many fields- finance, medicine, etc.
+
+-   **What differences/similarities do you see between data scientists and statisticians?**
+
+The assigned text highlights a lot of differences between data scientists and statisticians. It seems that statisticians are more involved with the exploratory process and modeling, whereas data scientists are more part of the wrangling and the the other processes as well. One thing I thought about, was perhaps in a lot of cases this is because statistician roles are more involved usually in experiment set up so the data is collected more intentionally.
+
+-   **How do you view yourself in relation to these two areas?**
+
+I definitely view myself as more of a statistician who wants to reach into the data scientist tool box occasionally, I think. I want to go into bio-statistics following this degree and I'm excited to be part of the clinical trial design process, monitoring results along the way and analyzing the results and helping write to communicate what was found.
+
+**Here we are defining our object "y":**
+
+```{r}
+
+y <- density(iris$Petal.Width)
+
+```
+
+What class is "y"? Use the class() function. "y" is a density function.
+
+```{r}
+
+class(y)
+
+```
+
+What type is our object "y"? Use typeof() function. "y" is a list.
+
+```{r}
+
+typeof(y)
+
+```
+
+What structure is our object "y"? Use str() function. See output for y below.
+
+```{r}
+
+
+str(y)
+
+```
+
+Plot object "y", using plot() function:
+
+```{r, echo = FALSE}
+
+
+plot(y)
+
+```
